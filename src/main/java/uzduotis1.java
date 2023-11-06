@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class uzduotis1 {
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\simku\\Desktop\\Traškutė.txt";
+        String fileName = "Traškutė.txt";
         String tekstas1 = "\nAtrodo nuostabiai, bet tęskime toliau. ";
 
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
